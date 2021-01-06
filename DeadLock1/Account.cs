@@ -41,8 +41,8 @@ namespace DeadLock1
         Account ToAccount;
         double AmountToTransfer;
 
-        public AccountManager(Account fromAccount,
-            Account toAccount, double amountToTransfer)
+        public AccountManager(Account fromAccount, Account toAccount, double amountToTransfer)
+ 
         {
             this.FromAccount = fromAccount;
             this.ToAccount = toAccount;
